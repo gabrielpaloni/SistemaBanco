@@ -56,8 +56,7 @@ Since this project uses secure environment variables, follow these steps to set 
 ## 👨‍💻 About the Author
 **Gabriel Paloni**
 *Computer Science Student in Campinas, Brazil.*
-Passionate about **Cybersecurity**, **AI**, and **Software Engineering**. Formerly an English Teacher at CNA, now focused on building secure and scalable tech solutions.
-
+Passionate about **Cybersecurity**, **AI**, and **Software Engineering**.
 ---
 <p align="center">
   <i>"Code is like humor. When you have to explain it, it’s bad."</i>
