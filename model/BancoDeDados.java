@@ -1,7 +1,10 @@
 package Projetos.SistemaBanco.model;
 
+<<<<<<< HEAD
 import java.io.FileInputStream;
 import java.io.IOException;
+=======
+>>>>>>> 71218552df5bda53cdec2fcec3f831ebfcd1c427
 import java.sql.*;
 import java.text.NumberFormat;
 import java.util.*;
@@ -17,6 +20,7 @@ public class BancoDeDados {
     }
 
     private void initializeConnection() {
+<<<<<<< HEAD
         Properties props = new Properties();
         try (FileInputStream fis = new FileInputStream("db.properties")) {
             props.load(fis);
@@ -30,6 +34,16 @@ public class BancoDeDados {
             );
         } catch (IOException | SQLException | ClassNotFoundException e) {
             System.err.println("Erro: Certifique-se que o arquivo db.properties está na pasta SistemaBanco.");
+=======
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+
+            String url = "jdbc:mysql://localhost:3306/sistemabanco";
+            String user = "root";
+            String password = "SuaNovaSenha";
+            connection = DriverManager.getConnection(url, user, password);
+        } catch (SQLException | ClassNotFoundException e) {
+>>>>>>> 71218552df5bda53cdec2fcec3f831ebfcd1c427
             e.printStackTrace();
         }
     }
