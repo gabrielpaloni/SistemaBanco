@@ -6,9 +6,7 @@
 out/
 build/
 target/
-<<<<<<< HEAD
 *.class
+
+# Configurações sensíveis
 db.properties
-=======
-*.class
->>>>>>> 71218552df5bda53cdec2fcec3f831ebfcd1c427
