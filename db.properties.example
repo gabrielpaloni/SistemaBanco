@@ -1,0 +1,3 @@
+db.url=jdbc:mysql://localhost:3306/sistemabanco
+db.user=YOUR_USER_HERE
+db.password=YOUR_PASSWORD
